@@ -10,6 +10,7 @@ import {
 } from './style';
 
 
+
 const ListRecipes = () => {
     return ( 
         <Container>
@@ -20,9 +21,6 @@ const ListRecipes = () => {
             </SubTitle>
 
             <List> 
-                <CardsFood/>
-                <CardsFood/>
-                <CardsFood/>
                 <CardsFood/>
             </List>
 
