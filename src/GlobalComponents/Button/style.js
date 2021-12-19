@@ -12,6 +12,20 @@ function choiceButton(whichButton){
     color:var(--color-primary);
     font-weight:750;
     cursor:pointer;
+    `,
+    card:css`
+    width:100px;
+    height:35px;
+    font-weight:750;
+    cursor:pointer;
+    border-radius:5px;
+    background-color:var(--color-primary);
+    color:var(--color-neutro-primary);
+    @media screen  and (min-width:1000px){
+    width:134px;
+    height:48px;
+    font-size:var(--font-size-normal);
+    }
     `
     }
     return buttons[whichButton]

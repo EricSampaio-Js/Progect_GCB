@@ -1,10 +1,6 @@
 import React from "react";
 
 import CardsFood from "./../../../../GlobalComponents/CardsFood";
-// import {ReactComponent as Comida_1} from './../../../../assets/images/comida_1.svg'
-// import {ReactComponent as Comida_2} from './../../../../assets/images/comida_2.svg'
-// import {ReactComponent as Comida_3} from './../../../../assets/images/comida_3.svg'
-// import {ReactComponent as Comida_4} from './../../../../assets/images/comida_4.svg'
 
 import {
     Container,

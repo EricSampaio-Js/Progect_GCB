@@ -1,6 +1,7 @@
 import React from 'react'
-// import {ReactComponent as ComidaOne} from './../../assets/images/comida_1.svg'
 
+import Button from './../Button'
+import imgTeste from './../../assets/images/comida_1.svg'
 import {
     Container,
     Content, 
@@ -12,12 +13,11 @@ const CardsFood = () => {
     return ( 
         <Container>
          
-            {/* <ComidaOne /> */}
-            <img src={require('./../../GlobalComponents/../assets/images/comida_1.svg')} alt="" />
-           
+        <img src={imgTeste} alt="" />
+
             <Content>
                 <Title>Cherry Cobble on the Grill</Title>
-                <button>See Recipe</button>
+                <Button sizeButton={'card'}>See Recipe</Button>
             </Content>
         </Container>
     );
