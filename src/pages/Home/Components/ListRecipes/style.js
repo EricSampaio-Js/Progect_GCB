@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
    width: 100%;
-   max-height:760px;
+   min-height:max(760px,100%);
    height:auto;
    background-color:var(--color-neutro-second);
-   padding:34px;
+   padding:34px 0 96px 0;
 `
 export const Title = styled.div`
     font-size:var(--font-size-bigg);

@@ -26,6 +26,15 @@ function choiceButton(whichButton){
     height:48px;
     font-size:var(--font-size-normal);
     }
+    `,
+    banner:css`
+    width:150px;
+    height:54px;
+    border-radius:5px;
+    color:var(--color-neutro-primary);
+    background-color:var(--color-primary);
+    font-weight:750;
+    cursor:pointer;
     `
     }
     return buttons[whichButton]
