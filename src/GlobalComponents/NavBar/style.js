@@ -15,7 +15,7 @@ export const Nav = styled.nav`
     height:max(70px,7.540263543191801vw);   
     max-height:103px;
     padding:0 16px 0 16px;
-    background-color:green; 
+    ${'' /* background-color:green;  */}
     font-weight:bold;
 
     color:var(--color-neutro-primary);

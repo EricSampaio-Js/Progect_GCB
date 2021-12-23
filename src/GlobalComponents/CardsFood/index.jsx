@@ -23,9 +23,8 @@ const dataCards = [
 
 const CardsFood = () => {
     return ( 
-
-        dataCards.map(({img,title}) =>(
-        <Container>
+        dataCards.map(({img,title},key) =>(
+        <Container key={key}>
             <img src={img} alt="" />
             <Content>
                 <Title>{title}</Title>

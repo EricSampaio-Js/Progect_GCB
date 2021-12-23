@@ -26,8 +26,6 @@ export const Content = styled.div`
 padding: 30px 10px 0 10px  ;
 
 @media (min-width: 982px){
-@media (min-width: 982px){
-    ${'' /* padding:49px 18px 49px 32px ; */}
     padding:9.28030303% 3.409090909%  9.28030303% 6.060606061% ;
 }
  
