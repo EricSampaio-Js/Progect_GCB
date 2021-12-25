@@ -35,8 +35,25 @@ function choiceButton(whichButton){
     background-color:var(--color-primary);
     font-weight:750;
     cursor:pointer;
+    `,
+
+    input:css`
+    width:93px;
+    height:54px; 
+    border-radius:5px;
+    color:var(--color-neutro-primary);
+    background-color:var(--color-primary);
+    font-weight:750;
+    cursor:pointer;    
+    
     `
     }
+
+
+
+
+
+
     return buttons[whichButton]
 }
 
