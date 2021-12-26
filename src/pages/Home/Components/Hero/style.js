@@ -11,7 +11,7 @@ export const Container = styled.div`
     heigth:auto;
     overflow: hidden;
 
-    >svg{
+    >img{
     position:absolute;
     top:200px;
     width:650px;
@@ -19,11 +19,15 @@ export const Container = styled.div`
     z-index:-1;
     }
 
+    #illustration-desktop{
+        display:none;
+    }
+
     @media screen and (min-width:1198px){
         flex-direction:row;
         min-height:calc(100vh + 200px);
 
-        >svg{
+        img{
             position:absolute;
             top:-60px;
             right:0;
@@ -32,7 +36,18 @@ export const Container = styled.div`
             height:800px;
             z-index:-1;
         }
+
+        #illustration-desktop{
+        display:block;
+        }
+
+        #illustration-mobile{
+            display:none;
+        }
+
     }
+
+  
 `
 
 export const WrapperSearch = styled.div`

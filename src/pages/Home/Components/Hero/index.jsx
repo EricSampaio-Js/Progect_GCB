@@ -1,5 +1,7 @@
 import React from 'react';
-import { ReactComponent as Ilustrator } from '../../../../assets/images/Illustration.svg';
+
+import IlustratorDesktop from '../../../../assets/images/Illustration.svg'
+import IlustratorMobile from '../../../../assets/images/Ilustration_mobile.svg'
 
 import {
   Container,
@@ -19,7 +21,8 @@ const Hero = () => {
         <SearchIcon />
       </Search>
     </WrapperSearch>
-    <Ilustrator  />
+   <img id='illustration-desktop' src={IlustratorDesktop} alt="" />
+   <img id='illustration-mobile' src={IlustratorMobile} alt="" />
   </Container>
   );
 }
