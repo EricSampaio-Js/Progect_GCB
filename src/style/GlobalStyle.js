@@ -58,4 +58,10 @@ export const GlobalStyle = createGlobalStyle`
         height:100%;
     }
 
+    a:visited{
+        color:var(--color-neutro-primary);
+    }
+
+   
+
 `

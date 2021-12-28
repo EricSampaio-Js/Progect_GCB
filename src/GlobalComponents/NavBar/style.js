@@ -41,6 +41,7 @@ export const NavMenu = styled.div`
    align-items:center;
    font-size:var(--font-size-normal);
 
+
    &>li{
         margin-left:32px;
     }
